@@ -1,0 +1,111 @@
+{
+    "page": {
+        "title": "article title"
+    },
+    "config": {
+        "title": "IRAY.ME",
+        "subtitle": null,
+        "description": "Iray.me",
+        "author": "ray0324",
+        "language": null,
+        "timezone": null,
+        "url": "https://iray.me",
+        "root": "/",
+        "permalink": ":year/:month/:day/:title/",
+        "permalink_defaults": null,
+        "source_dir": "source",
+        "public_dir": "public",
+        "tag_dir": "tags",
+        "archive_dir": "archives",
+        "category_dir": "categories",
+        "code_dir": "downloads/code",
+        "i18n_dir": ":lang",
+        "skip_render": null,
+        "new_post_name": ":title.md",
+        "default_layout": "layout",
+        "titlecase": false,
+        "external_link": true,
+        "filename_case": 0,
+        "render_drafts": false,
+        "post_asset_folder": false,
+        "relative_link": false,
+        "future": false,
+        "highlight": {
+            "enable": true,
+            "line_number": true,
+            "auto_detect": true,
+            "tab_replace": true
+        },
+        "index_generator": {
+            "path": "",
+            "per_page": 10,
+            "order_by": "-date"
+        },
+        "default_category": "uncategorized",
+        "category_map": null,
+        "tag_map": null,
+        "date_format": "YYYY-MM-DD",
+        "time_format": "HH:mm:ss",
+        "per_page": 10,
+        "pagination_dir": "page",
+        "theme": "cactus-dark",
+        "deploy": {
+            "type": "git",
+            "repo": "git@github.com:ray0324/iray.me.git",
+            "branch": "gh-pages"
+        }
+    },
+    "theme": {
+        "nav": {
+            "首页": "/",
+            "归档": "/archives/",
+            "关于": "/about/"
+        },
+        "projects_url": "http://github.com/probberechts",
+        "customize": {
+            "gravatar": {
+                "email": null
+            },
+            "logo": {
+                "enabled": true,
+                "width": 50,
+                "height": 50,
+                "url": "/images/logo.png",
+                "gravatar": false
+            },
+            "favicon": {
+                "desktop": {
+                    "url": "/images/favicon.ico",
+                    "gravatar": false
+                },
+                "android": {
+                    "url": "/images/favicon-192x192.png",
+                    "gravator": false
+                },
+                "apple": {
+                    "url": "/images/apple-touch-icon.png",
+                    "gravator": false
+                }
+            },
+            "social_links": {
+                "github": "http://github.com/ray0324"
+            },
+            "show_all_posts": false,
+            "post_count": 5,
+            "highlight": "agate"
+        },
+        "rss": false,
+        "plugins": {
+            "disqus_shortname": null,
+            "google_analytics": "UA-86660611-1"
+        },
+        "miscellaneous": {
+            "open_graph": {
+                "fb_app_id": null,
+                "fb_admins": null,
+                "twitter_id": null,
+                "google_plus": null
+            }
+        }
+    }
+}

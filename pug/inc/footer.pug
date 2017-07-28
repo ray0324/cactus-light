@@ -1,0 +1,10 @@
+- var config = {author:'ray'}
+footer#footer
+  .footer-left Copyright &copy; #{new Date().getFullYear()} #{config.author || config.title}
+  .footer-right
+    nav
+      ul
+        each link, key in {s:1,b:2}
+          li
+            a(href=link)= key
+  
